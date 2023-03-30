@@ -4,7 +4,7 @@ class Query:
     def __init__(self, query):
         self.type = query[0]
         self.number = int(query[1])
-        if len(query[1]<=7:
+        if len(query[1])<=7:
                if self.type == 'add':
                    self.name = query[2]
                    if len(query[2])>15:
